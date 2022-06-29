@@ -31,6 +31,7 @@ const IndexModel: IndexModelType = {
   // 如果是异步行为会先触发effects，然后流向reducers最终改变state
   // 在我们的应用中， 最常见的就是异步操作。它来自与函数编程的概念，
   // 之所以叫做副作用， 是因为他使得我们的函数变得不纯， 同样的输入， 不一定得到相同的结果
+  // ps: 感觉就像redux中的thunk
   effects: {
     *query({ payload }, { call, put }) {
       const resp: HttpCommResponse = yield call(currentUserApi);

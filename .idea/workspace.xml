@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a8b2b8-7d0e-4b03-9cd4-25a9ea88fd2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/models/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/count/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/question/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/reduxTest/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/useReducerTest/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-test/action.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-test/combineReducers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-test/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-test/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/interface.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/interface.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +70,7 @@
       <workItem from="1655185162733" duration="6243000" />
       <workItem from="1655431889676" duration="5116000" />
       <workItem from="1655454771544" duration="44070000" />
+      <workItem from="1656341310419" duration="4823000" />
     </task>
     <servers />
   </component>
@@ -105,7 +94,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/index.tsx</url>
           <line>258</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
