@@ -19,11 +19,136 @@ const IndexPage = ({ index, dispatch }) => {
   const [testType, setTestType] = useState<stringTest>('haha');
   type B = typeof testType;
   const [testTypeof, setTestTypeof] = useState<B>('heh');
+  const obj = {
+    id: 8,
+    poster: { id: 10, nickname: '马晨功', avatar: 'test-image', is_active: 1 },
+    create_time: 1655978421573,
+    update_time: 1656294224912,
+    text: '第8个帖子',
+    pictures: [
+      {
+        thumbnail_url: '9a82444b5d4a4a37af71b5288f7f98f0.png',
+        original_url: '4328494d28c94e738642a938e8d226e9.png',
+      },
+      {
+        thumbnail_url: '10e9842cae9f4ac3be48f0fa8466ab62.jpg',
+        original_url: '93dd21b5a473452baa32088b79949d3e.jpg',
+      },
+    ],
+    attachments: [
+      {
+        name: 'sendcloud.pdf',
+        size: 0,
+        origin_url: '746aeb082cf048ddbf20300c6e030f7b.pdf',
+      },
+    ],
+    pinned_time: 1656293900000,
+    likes: { top_n: [{ id: 10, nickname: '马晨功' }], total_num: 1, liked: 1 },
+    course: { id: 62, name: '晨功的测试课程0311' },
+    comments: [
+      {
+        id: 1,
+        update_time: 1656294775496,
+        text: 'true',
+        from_id: 10,
+        from_name: '马晨功',
+        pinned: 0,
+        replies: [
+          {
+            id: 3,
+            from_id: 10,
+            from_name: '马晨功',
+            to_id: 10,
+            to_name: '马晨功',
+            text: 'true',
+          },
+          {
+            id: 4,
+            from_id: 10,
+            from_name: '马晨功',
+            to_id: 10,
+            to_name: '马晨功',
+            text: 'false',
+          },
+          {
+            id: 5,
+            from_id: 10,
+            from_name: '马晨功',
+            to_id: 10,
+            to_name: '马晨功',
+            text: '测试回复',
+          },
+          {
+            id: 6,
+            from_id: 10,
+            from_name: '马晨功',
+            to_id: 10,
+            to_name: '马晨功',
+            text: '测试回复',
+          },
+          {
+            id: 7,
+            from_id: 10,
+            from_name: '马晨功',
+            to_id: 10,
+            to_name: '马晨功',
+            text: '测试回复',
+          },
+        ],
+      },
+      {
+        id: 3,
+        update_time: 1656405976118,
+        text: '测试评论',
+        from_id: 10,
+        from_name: '马晨功',
+        pinned: 0,
+        replies: [],
+      },
+      {
+        id: 4,
+        update_time: 1656408463125,
+        text: '测试评论111',
+        from_id: 10,
+        from_name: '马晨功',
+        pinned: 0,
+        replies: [],
+      },
+      {
+        id: 5,
+        update_time: 1656914735225,
+        text: '测试评论111',
+        from_id: 10,
+        from_name: '马晨功',
+        pinned: 0,
+        replies: [],
+      },
+      {
+        id: 6,
+        update_time: 1656914765579,
+        text: '测试评论123',
+        from_id: 10,
+        from_name: '马晨功',
+        pinned: 0,
+        replies: [],
+      },
+      {
+        id: 7,
+        update_time: 1656914909273,
+        text: '测试评论123',
+        from_id: 15,
+        from_name: '马晨功2',
+        pinned: 0,
+        replies: [],
+      },
+    ],
+  };
   const [tina, setTina] = useState<extendsInterface>({
     name: 'tina',
     age: 18,
     gender: 'woman',
   });
+  const [post, setPost] = useState<any>(null);
 
   // const handleClick = () => {
   //   const inputValue = input.current;
@@ -33,6 +158,8 @@ const IndexPage = ({ index, dispatch }) => {
   // }
 
   useEffect(() => {
+    setPost(obj);
+    console.log('window: ', window.test);
     // promiseDemo()
     // test()
     // promiseTest()
@@ -270,8 +397,12 @@ const IndexPage = ({ index, dispatch }) => {
       <button onClick={() => history.push('/reducer')}>go to reducer</button>
       <button onClick={() => history.push('/count')}>go to count</button>
       <button onClick={() => history.push('/redux')}> go to redux </button>
-
+      <button onClick={() => history.push('/ele')}> go to electron </button>
       <hr />
+      <h1>Hello World!</h1>
+      We are using Node.js <span id="node-version"></span>, Chromium{' '}
+      <span id="chrome-version"></span>, and Electron{' '}
+      <span id="electron-version"></span>.
     </div>
   );
 };
