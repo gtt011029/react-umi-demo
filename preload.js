@@ -29,5 +29,6 @@ window.addEventListener('DOMContentLoaded', () => {
     setTitle: (title) => ipcRenderer.send('set-title', title),
     openFile: () => ipcRenderer.invoke('dialog:openFile'), // 调用  dialog:openFile
     handleCounter: (callback) => ipcRenderer.on('update-counter', callback), // 监听update-counter通道， 如果被触发就执行callback
+    handleLanguage: (callback) => ipcRenderer.on('language', callback),
   });
 });

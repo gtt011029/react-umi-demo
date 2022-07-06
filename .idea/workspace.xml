@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a8b2b8-7d0e-4b03-9cd4-25a9ea88fd2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Inbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ElectronDemo/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ElectronDemo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Drag/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Drag/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/RequireDemo/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/RequireDemo/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preload.js" beforeDir="false" afterPath="$PROJECT_DIR$/preload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ElectronDemo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ElectronDemo/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -87,7 +88,7 @@
       <workItem from="1655431889676" duration="5116000" />
       <workItem from="1655454771544" duration="44070000" />
       <workItem from="1656341310419" duration="4823000" />
-      <workItem from="1656930935451" duration="25507000" />
+      <workItem from="1656930935451" duration="40428000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,7 @@
   "main": "main.js",
   "private": true,
   "scripts": {
-    "start": "electron-forge start",
+    "start": "umi dev",
     "ele": "electron .",
     "pack": "electron-builder --linux",
     "build": "umi build",

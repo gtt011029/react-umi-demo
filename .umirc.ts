@@ -20,6 +20,8 @@ export default defineConfig({
     { path: '/count', component: '@/pages/count' },
     { path: '/redux', component: '@/pages/reduxTest' },
     { path: '/ele', component: '@/pages/ElectronDemo' },
+    { path: '/req', component: '@/pages/RequireDemo' },
+    { path: '/drag', component: '@/pages/Drag' },
   ],
   // 代理也称为网络代理， 是一种特殊的网络服务， 允许一个终端（一般为客户端）
   // 通过这个服务与另一个终端（一般为服务端）进行非直接的连接

@@ -398,6 +398,7 @@ const IndexPage = ({ index, dispatch }) => {
       <button onClick={() => history.push('/count')}>go to count</button>
       <button onClick={() => history.push('/redux')}> go to redux </button>
       <button onClick={() => history.push('/ele')}> go to electron </button>
+      <button onClick={() => history.push('/req')}> go to require demo </button>
       <hr />
       <h1>Hello World!</h1>
       We are using Node.js <span id="node-version"></span>, Chromium{' '}
